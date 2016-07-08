@@ -1,4 +1,4 @@
-package com.quinnox.iot;
+package com.demo.talentsearch;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
