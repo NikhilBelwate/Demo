@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spl"
+    tools:context="com.quinnox.epod.ui.LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_login"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Welcome"
+            android:textColor="@color/grey"
+            android:textSize="35sp" />
+        <TextView
+            android:id="@+id/error"
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:textColor="@color/error_red"
+            android:textSize="12sp" />
+        <EditText
+            android:id="@+id/user_name"
+            style="@style/edit_txt_style"
+            android:text="nikhil.beal@gmail.com"
+            android:layout_marginTop="15dp"
+            android:drawableRight="@drawable/login_user_icon"
+            android:hint="Username" />
+        <EditText
+            android:id="@+id/password"
+            style="@style/edit_txt_style"
+            android:text="abcde"
+            android:layout_marginTop="15dp"
+            android:inputType="textPassword"
+            android:drawableRight="@drawable/lock"
+            android:hint="Password" />
+
+        <Button
+            android:id="@+id/btn_login"
+            style="@style/btn_style"
+            android:layout_alignBottom="@+id/edt_text_driver_id"
+            android:layout_marginTop="10dp"
+            android:text="LOGIN" />
+    </LinearLayout>
+
+</RelativeLayout>
+
+
